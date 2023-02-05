@@ -18,6 +18,7 @@ persist.vendor.camera.physical.num=4
 vendor.display.override_doze_mode=1
 
 # Fingerprint
+persist.vendor.fingerprint.udfps.handler=moto
 ro.vendor.hw.fps=true
 
 # Sensors

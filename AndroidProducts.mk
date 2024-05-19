@@ -16,8 +16,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_bronco.mk
-
-COMMON_LUNCH_CHOICES := \
-    lineage_bronco-user \
-    lineage_bronco-userdebug \
-    lineage_bronco-eng

@@ -1,12 +1,14 @@
 # Camera
 persist.vendor.camera.physical.num=4
 
+# Fingerprint
+ro.vendor.hw.fps=true
+
 # Motorola
 ro.mot.build.customerid=global
 
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
 persist.vendor.sensors.mot_tap=true
-ro.vendor.sensors.front_light_compensate=true
 ro.vendor.sensors.glance_approach=false
-ro.vendor.sensors.mot_drop=true
+ro.vendor.sensors.prox_for_call=false

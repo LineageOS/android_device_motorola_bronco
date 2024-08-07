@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_eqs.mk
+    $(LOCAL_DIR)/lineage_bronco.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_eqs-user \
-    lineage_eqs-userdebug \
-    lineage_eqs-eng
+    lineage_bronco-user \
+    lineage_bronco-userdebug \
+    lineage_bronco-eng

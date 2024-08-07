@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=eqs
+export DEVICE=bronco
 export DEVICE_COMMON=sm8475-common
 export VENDOR=motorola
 

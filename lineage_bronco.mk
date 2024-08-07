@@ -18,22 +18,22 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from eqs device
-$(call inherit-product, device/motorola/eqs/device.mk)
+# Inherit from bronco device
+$(call inherit-product, device/motorola/bronco/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_eqs
-PRODUCT_DEVICE := eqs
+PRODUCT_NAME := lineage_bronco
+PRODUCT_DEVICE := bronco
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := motorola edge 30 ultra
+PRODUCT_MODEL := ThinkPhone by motorola
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=eqs_ge \
-    PRIVATE_BUILD_DESC="eqs_ge-user 14 U1SQS34.52-21-1-8 ad3814-1af678 release-keys"
+    TARGET_PRODUCT=bronco_gu \
+    PRIVATE_BUILD_DESC="bronco_gu-user 14 U1TBS34.54-24-1-12 5505b-7c03d3 release-keys"
 
-BUILD_FINGERPRINT := motorola/eqs_ge/msi:14/U1SQS34.52-21-1-8/ad3814-1af678:user/release-keys
+BUILD_FINGERPRINT := motorola/bronco_gu/msi:14/U1TBS34.54-24-1-12/5505b-7c03d3:user/release-keys

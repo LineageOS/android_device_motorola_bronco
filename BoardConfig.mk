@@ -14,34 +14,46 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/motorola/eqs
+DEVICE_PATH := device/motorola/bronco
 
 # Inherit from motorola sm8475-common
 include device/motorola/sm8475-common/BoardConfigCommon.mk
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := eqs
+TARGET_BOOTLOADER_BOARD_NAME := bronco
 
 # HIDL
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/device_framework_matrix_eqs.xml
-ODM_MANIFEST_SKUS += dne
-ODM_MANIFEST_DNE_FILES := $(DEVICE_PATH)/manifest_eqs_dne.xml
-ODM_MANIFEST_SKUS += dn
-ODM_MANIFEST_DN_FILES := $(DEVICE_PATH)/manifest_eqs_dn.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/device_framework_matrix_bronco.xml
+ODM_MANIFEST_SKUS += sku-ds-nfc_ese-p
+ODM_MANIFEST_SKU-DS-NFC_ESE-P_FILES := $(DEVICE_PATH)/manifest_sku-ds-nfc_ese.xml
+ODM_MANIFEST_SKUS += sku-ss-nfc_ese-p
+ODM_MANIFEST_SKU-SS-NFC_ESE-P_FILES := $(DEVICE_PATH)/manifest_sku-ss-nfc_ese.xml
+ODM_MANIFEST_SKUS += sku-ds-nfc_ese
+ODM_MANIFEST_SKU-DS-NFC_ESE_FILES := $(DEVICE_PATH)/manifest_sku-ds-nfc_ese.xml
+ODM_MANIFEST_SKUS += sku-ss-nfc_ese
+ODM_MANIFEST_SKU-SS-NFC_ESE_FILES := $(DEVICE_PATH)/manifest_sku-ss-nfc_ese.xml
+ODM_MANIFEST_SKUS += sku-ds-nfc-p
+ODM_MANIFEST_SKU-DS-NFC-P_FILES := $(DEVICE_PATH)/manifest_sku-ds-nfc.xml
+ODM_MANIFEST_SKUS += sku-ss-nfc-p
+ODM_MANIFEST_SKU-SS-NFC-P_FILES := $(DEVICE_PATH)/manifest_sku-ss-nfc.xml
+ODM_MANIFEST_SKUS += sku-ds-nfc
+ODM_MANIFEST_SKU-DS-NFC_FILES := $(DEVICE_PATH)/manifest_sku-ds-nfc.xml
+ODM_MANIFEST_SKUS += sku-ss-nfc
+ODM_MANIFEST_SKU-SS-NFC_FILES := $(DEVICE_PATH)/manifest_sku-ss-nfc.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG += \
-	vendor/ext_config/moto-waipio-eqs.config
+	vendor/ext_config/moto-waipio-bronco.config
 
 # Partitions
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 228362006528
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 245724327936
 ifneq ($(WITH_GMS),true)
 BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE := 3318226944
 BOARD_SYSTEMIMAGE_PARTITION_RESERVED_SIZE := 873680896
 BOARD_SYSTEM_EXTIMAGE_PARTITION_RESERVED_SIZE := 916299776
 endif
-BOARD_MOT_DP_GROUP_SIZE := 11806965760 # ( BOARD_SUPER_PARTITION_SIZE - 4MB )
-BOARD_SUPER_PARTITION_SIZE := 11811160064
+BOARD_MOT_DP_GROUP_SIZE := 7329546240 # ( BOARD_SUPER_PARTITION_SIZE - 4MB )
+BOARD_SUPER_PARTITION_SIZE := 7333740544
 
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
@@ -52,7 +64,7 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 
 # Security
-VENDOR_SECURITY_PATCH := 2024-06-01
+VENDOR_SECURITY_PATCH := 2024-07-01
 
 # inherit from the proprietary version
-include vendor/motorola/eqs/BoardConfigVendor.mk
+include vendor/motorola/bronco/BoardConfigVendor.mk

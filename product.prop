@@ -1,2 +1,5 @@
 # Moto
 ro.vendor.product.display=ThinkPhone by motorola
+
+# Radio
+ro.vendor.radio.imei.sv=4

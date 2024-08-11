@@ -1,5 +1,4 @@
 runtime_resource_overlay {
     name: "SystemUIResBronco",
-    sdk_version: "current",
     vendor: true
 }

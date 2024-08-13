@@ -1,3 +1,7 @@
+# Audio
+ro.vendor.audio.hdr.record.support=true
+vendor.audio.hdr.record.enable=true
+
 # Camera
 persist.vendor.camera.physical.num=4
 

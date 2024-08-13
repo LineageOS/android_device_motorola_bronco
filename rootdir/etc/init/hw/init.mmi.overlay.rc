@@ -160,13 +160,6 @@ on property:vendor.post_boot.parsed=1
     write /sys/devices/system/cpu/cpu4/core_ctl/enable 0
     write /sys/devices/system/cpu/cpu7/core_ctl/enable 0
 
-on property:vendor.usb.headset_reset=2
-    write /sys/bus/platform/devices/${ro.boot.usb.dwc3_msm:-a600000.ssusb}/mode none
-
-on property:vendor.usb.headset_reset=0
-    wait /sys/bus/platform/devices/${ro.boot.usb.dwc3_msm:-a600000.ssusb}/headset_reset_delay 2
-    write /sys/bus/platform/devices/${ro.boot.usb.dwc3_msm:-a600000.ssusb}/mode host
-
 on property:ro.boot.hardware.sku=XT2309-2
     setprop ro.vendor.radio.imei.sv 39
 

@@ -1,6 +1,13 @@
 # Audio
 ro.vendor.audio.hdr.record.support=true
 vendor.audio.hdr.record.enable=true
+vendor.audio.max.dr0=6.9
+vendor.audio.max.dr1=6.9
+vendor.audio.max.temp=60.0
+vendor.audio.min.dr0=5.1
+vendor.audio.min.dr1=5.1
+vendor.audio.min.resistance=6.35,6.79
+vendor.audio.min.temp=20.0
 
 # Camera
 persist.vendor.camera.physical.num=4

@@ -8,6 +8,8 @@ vendor.audio.min.dr0=5.1
 vendor.audio.min.dr1=5.1
 vendor.audio.min.resistance=6.35,6.79
 vendor.audio.min.temp=20.0
+vendor.audio.out_device_tag.supported=true
+vendor.audio.volte_band_limit.supported=true
 
 # Camera
 persist.vendor.camera.physical.num=4

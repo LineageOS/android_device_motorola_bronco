@@ -22,6 +22,10 @@ vendor/lib/rfsa/adsp/libhdr_skel.so
 vendor/lib/rfsa/adsp/libmctfengine_skel.so
 vendor/lib/rfsa/adsp/libhme_dsp_skel.so
 
+# Audio
+vendor/etc/aualgo/aualgo_sst.conf
+vendor/lib64/libaualgo_sst_component.so
+
 # Camera
 vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64
 vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc

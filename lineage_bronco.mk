@@ -33,7 +33,6 @@ PRODUCT_MODEL := ThinkPhone by motorola
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=bronco_gu \
-    PRIVATE_BUILD_DESC="bronco_gu-user 14 U1TBS34.54-24-1-12 5505b-7c03d3 release-keys"
-
-BUILD_FINGERPRINT := motorola/bronco_gu/bronco:14/U1TBS34.54-24-1-12/5505b-7c03d3:user/release-keys
+    DeviceProduct="bronco_gu" \
+    BuildDesc="bronco_gu-user 14 U1TBS34.54-24-1-12 5505b-7c03d3 release-keys" \
+    BuildFingerprint="motorola/bronco_gu/bronco:14/U1TBS34.54-24-1-12/5505b-7c03d3:user/release-keys"

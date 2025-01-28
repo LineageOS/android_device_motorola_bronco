@@ -81,5 +81,9 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/bronco/bronco-vendor.mk)

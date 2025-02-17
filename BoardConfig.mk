@@ -27,19 +27,19 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/device_framework_ma
 ODM_MANIFEST_SKUS += sku-ds-nfc_ese-p
 ODM_MANIFEST_SKU-DS-NFC_ESE-P_FILES := $(DEVICE_PATH)/manifest_sku-ds-nfc_ese.xml
 ODM_MANIFEST_SKUS += sku-ss-nfc_ese-p
-ODM_MANIFEST_SKU-SS-NFC_ESE-P_FILES := $(DEVICE_PATH)/manifest_sku-ss-nfc_ese.xml
+ODM_MANIFEST_SKU-SS-NFC_ESE-P_FILES := $(DEVICE_PATH)/manifest_sku-ss-nfc_ese.xml $(COMMON_PATH)/manifest_cape_ss.xml
 ODM_MANIFEST_SKUS += sku-ds-nfc_ese
 ODM_MANIFEST_SKU-DS-NFC_ESE_FILES := $(DEVICE_PATH)/manifest_sku-ds-nfc_ese.xml
 ODM_MANIFEST_SKUS += sku-ss-nfc_ese
-ODM_MANIFEST_SKU-SS-NFC_ESE_FILES := $(DEVICE_PATH)/manifest_sku-ss-nfc_ese.xml
+ODM_MANIFEST_SKU-SS-NFC_ESE_FILES := $(DEVICE_PATH)/manifest_sku-ss-nfc_ese.xml $(COMMON_PATH)/manifest_cape_ss.xml
 ODM_MANIFEST_SKUS += sku-ds-nfc-p
 ODM_MANIFEST_SKU-DS-NFC-P_FILES := $(DEVICE_PATH)/manifest_sku-ds-nfc.xml
 ODM_MANIFEST_SKUS += sku-ss-nfc-p
-ODM_MANIFEST_SKU-SS-NFC-P_FILES := $(DEVICE_PATH)/manifest_sku-ss-nfc.xml
+ODM_MANIFEST_SKU-SS-NFC-P_FILES := $(DEVICE_PATH)/manifest_sku-ss-nfc.xml $(COMMON_PATH)/manifest_cape_ss.xml
 ODM_MANIFEST_SKUS += sku-ds-nfc
 ODM_MANIFEST_SKU-DS-NFC_FILES := $(DEVICE_PATH)/manifest_sku-ds-nfc.xml
 ODM_MANIFEST_SKUS += sku-ss-nfc
-ODM_MANIFEST_SKU-SS-NFC_FILES := $(DEVICE_PATH)/manifest_sku-ss-nfc.xml
+ODM_MANIFEST_SKU-SS-NFC_FILES := $(DEVICE_PATH)/manifest_sku-ss-nfc.xml $(COMMON_PATH)/manifest_cape_ss.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG += \

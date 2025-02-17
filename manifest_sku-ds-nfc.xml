@@ -10,12 +10,4 @@
         <transport>hwbinder</transport>
         <fqname>@2.0::INqNfc/default</fqname>
     </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.esepowermanager</name>
-        <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.hardware.qteeconnector</name>
-        <transport>hwbinder</transport>
-    </hal>
 </manifest>

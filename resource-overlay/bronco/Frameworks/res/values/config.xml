@@ -75,7 +75,6 @@
 
          This array should be equal in size to config_screenBrightnessBacklight. -->
     <array name="config_screenBrightnessBacklight">
-        <item>0</item>
         <item>9</item>
         <item>26</item>
         <item>34</item>
@@ -100,7 +99,6 @@
 
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
-        <item>0</item>
         <item>3</item>
         <item>7</item>
         <item>10</item>

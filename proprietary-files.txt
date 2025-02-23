@@ -312,8 +312,11 @@ vendor/lib64/camera/com.qti.tuned.mot_bronco_ov50a.bin
 vendor/firmware/cps4038.bin
 
 # Display calibration data
+vendor/etc/display/factory_calib_data_mipi_mot_vid_csot_1080p_dsc_655_144hz.json
+vendor/etc/display/factory_calib_data_mipi_mot_vid_tianma_1080p_dsc_655_144hz.json
 vendor/etc/display/qdcm_calib_data_mipi_mot_vid_csot_1080p_dsc_655_144hz.json
 vendor/etc/display/qdcm_calib_data_mipi_mot_vid_tianma_1080p_dsc_655_144hz.json
+vendor/etc/display/qdcm_merge_rules_mipi_mot_vid_csot_1080p_dsc_655_144hz.json
 vendor/etc/display/qdcm_merge_rules_mipi_mot_vid_tianma_1080p_dsc_655_144hz.json
 
 # Ese Powermanagement

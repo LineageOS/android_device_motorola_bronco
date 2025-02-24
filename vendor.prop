@@ -16,6 +16,7 @@ persist.vendor.camera.physical.num=4
 
 # Display
 vendor.display.idle_time=0
+vendor.display.override_doze_mode=1
 
 # Fingerprint
 ro.vendor.hw.fps=true

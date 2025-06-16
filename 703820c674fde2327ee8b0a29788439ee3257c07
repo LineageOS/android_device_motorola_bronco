@@ -16,6 +16,24 @@
       "message": "that\u0027s fine assuming stock always uses this path, otherwise you loose dmic",
       "revId": "703820c674fde2327ee8b0a29788439ee3257c07",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c746d687_98866648",
+        "filename": "audio/sku_cape/resourcemanager_waipio_mtp_hdr.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 17257
+      },
+      "writtenOn": "2025-06-16T09:40:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "57bd1439_c78a186a",
+      "revId": "703820c674fde2327ee8b0a29788439ee3257c07",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []

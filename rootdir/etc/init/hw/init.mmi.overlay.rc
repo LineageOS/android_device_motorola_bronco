@@ -161,13 +161,13 @@ on property:vendor.post_boot.parsed=1
     write /sys/devices/system/cpu/cpu7/core_ctl/enable 0
 
 on property:ro.boot.hardware.sku=XT2309-2
-    setprop ro.vendor.radio.imei.sv 50
+    setprop ro.vendor.radio.imei.sv 65
 
 on property:ro.boot.hardware.sku=XT2309-3
-    setprop ro.vendor.radio.imei.sv 41
+    setprop ro.vendor.radio.imei.sv 46
 
 on property:ro.boot.hardware.sku=XT2309-4
-    setprop ro.vendor.radio.imei.sv 41
+    setprop ro.vendor.radio.imei.sv 46
 
 service nqnfcinfo /vendor/bin/nqnfcinfo
     class late_start

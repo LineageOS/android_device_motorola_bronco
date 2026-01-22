@@ -53,7 +53,7 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.moto_sm8475_fod \
+    android.hardware.biometrics.fingerprint@2.3-service.moto \
     vendor.egistec.hardware.fingerprint@4.0-vintf
 
 # Init

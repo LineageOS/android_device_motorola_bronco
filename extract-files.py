@@ -76,10 +76,6 @@ blob_fixups: blob_fixups_user_type = {
         'vendor.qti.hardware.display.config-V2-ndk_platform.so',
         'vendor.qti.hardware.display.config-V2-ndk.so',
     ),
-    'vendor/lib64/nfc_nci.nqx.default.hw.so': blob_fixup().replace_needed(
-        'libbase.so',
-        'libbase-v33.so',
-    ),
     (
         'vendor/lib64/camx.provider@2.4-impl.so',
         'vendor/lib64/camx.provider@2.5-legacy.so',

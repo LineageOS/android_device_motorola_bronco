@@ -29,7 +29,6 @@ vendor/lib64/libaualgo_sst_component.so
 # Camera
 vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64
 vendor/etc/eva/facedetection/model3.dat
-vendor/etc/face3d/qcnn_concat_file_model-0324_2_encrypted
 vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc
 vendor/lib64/camera/arcsoft_dc_calibration_u.bin
 vendor/lib64/camera/com.qti.ois.mot_dw9784.so
@@ -53,13 +52,10 @@ vendor/lib64/com.qualcomm.mcx.policy.mfl.so
 vendor/lib64/com.qualcomm.mcx.policy.xr.so
 vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so
 vendor/lib64/libAncHumanSegFigureFusion.so
-vendor/lib64/libFace3DTA.so
-vendor/lib64/libFace3D_hlos.so
 vendor/lib64/libPlatformValidatorShared.so
 vendor/lib64/libQ6MSFR_manager_stub.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libSnpeHtpPrepare.so
-vendor/lib64/libSnpeHtpV68Stub.so
 vendor/lib64/libSnpeHtpV69Stub.so
 vendor/lib64/liba2d_helper.so
 vendor/lib64/libaidenoiser.so
@@ -88,13 +84,10 @@ vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libdualcam_optical_zoom_control.so
 vendor/lib64/libdualcam_video_optical_zoom.so
 vendor/lib64/libeye_tracking_dsp_sample_stub.so
-vendor/lib64/libface3d_dev.so
 vendor/lib64/libhdr10plus.so
 vendor/lib64/libhme.so
 vendor/lib64/libhta.so
 vendor/lib64/libipebpsstriping.so
-vendor/lib64/libipebpsstriping170.so
-vendor/lib64/libipebpsstriping480.so
 vendor/lib64/libjpege.so
 vendor/lib64/libmfGhostDetection.so
 vendor/lib64/libmfec.so
@@ -262,18 +255,12 @@ vendor/lib64/com.qti.feature2.derivedoffline.so
 vendor/lib64/com.qti.feature2.frameselect.so
 vendor/lib64/com.qti.feature2.fusion.so
 vendor/lib64/com.qti.feature2.generic.so
-vendor/lib64/com.qti.feature2.gs.cedros.so
-vendor/lib64/com.qti.feature2.gs.fillmore.so
-vendor/lib64/com.qti.feature2.gs.sdm865.so
-vendor/lib64/com.qti.feature2.gs.sm8350.so
 vendor/lib64/com.qti.feature2.gs.sm8450.so
 vendor/lib64/com.qti.feature2.hdr.so
 vendor/lib64/com.qti.feature2.mcreprocrt.so
 vendor/lib64/com.qti.feature2.memcpy.so
-vendor/lib64/com.qti.feature2.mfsr.netrani.so
 vendor/lib64/com.qti.feature2.mfsr.sm8450.so
 vendor/lib64/com.qti.feature2.mfsr.so
-vendor/lib64/com.qti.feature2.ml.fillmore.so
 vendor/lib64/com.qti.feature2.ml.so
 vendor/lib64/com.qti.feature2.mux.so
 vendor/lib64/com.qti.feature2.qcfa.so
@@ -302,7 +289,6 @@ vendor/lib64/camera/com.qti.sensormodule.mot_bronco_ov32b40_qtech.bin
 vendor/lib64/camera/com.qti.sensormodule.mot_bronco_ov50a_sunny.bin
 
 # Camera - tuned
-vendor/lib64/camera/com.qti.tuned.default.bin
 vendor/lib64/camera/com.qti.tuned.mot_bronco_gc02m1b.bin
 vendor/lib64/camera/com.qti.tuned.mot_bronco_hi1336.bin
 vendor/lib64/camera/com.qti.tuned.mot_bronco_ov32b40.bin

@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6423f74a_b546dedc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-06-28T03:50:17Z",
+      "side": 1,
+      "message": "curious why this is needed? This is set up in envsetup.sh, if you run that you can just run sort-blobs-list directly...",
+      "revId": "9638fbea098d95bba9e7519e06a71840bd2b8519",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {

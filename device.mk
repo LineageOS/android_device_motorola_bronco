@@ -53,7 +53,8 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.moto_sm8475_fod
+    android.hardware.biometrics.fingerprint@2.3-service.moto_sm8475_fod \
+    vendor.egistec.hardware.fingerprint@4.0-vintf
 
 # Init
 PRODUCT_PACKAGES += \
@@ -87,7 +88,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # VINTF
-DEVICE_MANIFEST_FILE += device/motorola/bronco/vintf/manifest.xml
 ODM_MANIFEST_SKUS += sku-ds-nfc_ese-p
 ODM_MANIFEST_SKU-DS-NFC_ESE-P_FILES := $(LOCAL_PATH)/vintf/manifest_sku-ds-nfc_ese.xml
 ODM_MANIFEST_SKUS += sku-ss-nfc_ese-p

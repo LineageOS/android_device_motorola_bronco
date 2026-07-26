@@ -16,6 +16,23 @@
       "message": "Why?",
       "revId": "1e2ea5f32eb77df5be52039e5fa032cebf4ac903",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0bfe2b7_3489fae4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-07-26T18:14:09Z",
+      "side": 1,
+      "message": "Because we ship a camera app, there are no other oem\u0027s doing anything of the sorts.",
+      "revId": "1e2ea5f32eb77df5be52039e5fa032cebf4ac903",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

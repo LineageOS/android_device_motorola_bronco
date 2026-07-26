@@ -85,6 +85,23 @@
       "parentUuid": "5369716e_3470722a",
       "revId": "1e2ea5f32eb77df5be52039e5fa032cebf4ac903",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd501740_5aabcfb7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-07-26T19:20:23Z",
+      "side": 1,
+      "message": "For reference, the stock camera app was originally shipped on some motorola devices to support special external cameras, but it has been \"abused\" on newer families to ship stock camera while we have our own camera app. Shipping 2 camera apps by default is a pretty broken experience, including the launcher icon missing out of the box on new installs. If someone wants the stock camera, it should be an external addon that can be flashed.",
+      "revId": "1e2ea5f32eb77df5be52039e5fa032cebf4ac903",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

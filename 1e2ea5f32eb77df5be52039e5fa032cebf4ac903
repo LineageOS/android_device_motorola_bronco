@@ -67,6 +67,24 @@
       "message": "Hopefully this is not the case with recent versions of 23.2 but in my case the Lineage Camera app only goes up to 1080/60, while the stock one can go up to 4K/60, so that\u0027s something to consider as well",
       "revId": "1e2ea5f32eb77df5be52039e5fa032cebf4ac903",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb4c5318_3a69b221",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-07-26T19:13:44Z",
+      "side": 1,
+      "message": "Well I see none of these devices are configured for Aperture, so that needs to be done first. I do want to remove these eventually across sm7435/sm8475 devices",
+      "parentUuid": "5369716e_3470722a",
+      "revId": "1e2ea5f32eb77df5be52039e5fa032cebf4ac903",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

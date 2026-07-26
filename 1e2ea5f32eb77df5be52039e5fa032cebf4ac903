@@ -33,6 +33,23 @@
       "message": "Because we ship a camera app, there are no other oem\u0027s doing anything of the sorts.",
       "revId": "1e2ea5f32eb77df5be52039e5fa032cebf4ac903",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5136179a_fac25e3c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35783
+      },
+      "writtenOn": "2026-07-26T18:18:57Z",
+      "side": 1,
+      "message": "I don\u0027t think this should be done. Only the stock camera app can fully make use of it. Just look at the native libraries it includes (in the case of bronco).",
+      "revId": "1e2ea5f32eb77df5be52039e5fa032cebf4ac903",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

@@ -35,5 +35,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct="bronco_g" \
-    BuildDesc="bronco_g-user 16 W1TBS36H.1-63-2-4 ba01d-36f0a0 release-keys MW-413" \
-    BuildFingerprint="motorola/bronco_g/bronco:16/W1TBS36H.1-63-2-4/ba01d-36f0a0:user/release-keys"
+    BuildDesc="bronco_g-user 16 W1TBS36H.1-63-2-6 04c20-4c4a424 release-keys MW-413" \
+    BuildFingerprint="motorola/bronco_g/bronco:16/W1TBS36H.1-63-2-6/04c20-4c4a424:user/release-keys"

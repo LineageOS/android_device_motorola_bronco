@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from bronco_g-user 16 W1TBS36H.1-63-2-4 ba01d-36f0a0 release-keys MW-413.
+# All unpinned blobs below are extracted from bronco_g-user 16 W1TBS36H.1-63-2-6 04c20-4c4a424 release-keys MW-413.
 
 # ACDB Data
 vendor/etc/acdbdata/nn_ns_models/fai__2.6.3_0.0__3.0.0_0.0__eai_1.43_enpu2.pmd
